@@ -88,7 +88,22 @@ CREATE TABLE TICKET(
     DEPARTING_FROM VARCHAR(20) NOT NULL,
     ARRIVING_AT VARCHAR(20) NOT NULL
 );
-CREATE TABLE USERS(
-    username VARCHAR(15) PRIMARY KEY,
-    PWD VARCHAR(15) NOT NULL
-);
+CREATE TABLE users (
+	username VARCHAR(50) NOT NULL Primary Key,
+	pwd VARCHAR(255) NOT NULL,
+	role VARCHAR(50) NOT NULL );
+
+
+select * from passenger;
+select * from airport;
+select * from airline;
+select * from payment;
+select * from flight;
+select * from booking;
+select * from ticket;
+
+
+
+
+
+
