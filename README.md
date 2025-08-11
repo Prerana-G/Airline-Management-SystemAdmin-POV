@@ -63,4 +63,4 @@ streamlit run code6_final_real.py
 
 Want to make this project even better? Fork the repository, make your magic happen, and submit a pull request!
 
-🚀 Your contributions are like first-class upgrades for this pr
+🚀 Your contributions are like first-class upgrades for this project
